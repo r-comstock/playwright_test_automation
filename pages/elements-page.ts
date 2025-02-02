@@ -7,6 +7,7 @@ export class ElementsPage {
     readonly currentAddressTextBox: Locator;
     readonly permanentAddressTextBox: Locator;
     readonly submitButton: Locator;
+    
 
     constructor(page: Page) {
         this.page = page;
